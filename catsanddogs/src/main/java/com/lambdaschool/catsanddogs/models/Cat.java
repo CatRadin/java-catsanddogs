@@ -19,7 +19,7 @@ public class Cat
 
     public long getCatid()
     {
-        return catid;
+        return catid.toUpperCase();
     }
 
     public void setCatid(long catid)
